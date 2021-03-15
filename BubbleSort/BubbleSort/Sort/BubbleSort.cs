@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StackAndQueue.Object
+namespace BubbleSort.Sort
 {
-    public class DataObject
+    public class BubbleSort
     {
-        public string SomeProperty { get; set; }
+
+
     }
 }
