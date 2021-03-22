@@ -8,7 +8,14 @@ namespace BubbleSort.Sort
 {
     public class BubbleSort
     {
+        public BubbleSort()
+        {
 
+        }
 
+        public void Sort(int[] list)
+        {
+
+        }
     }
 }
