@@ -9,24 +9,36 @@ namespace StackAndQueue.Stack
 {
     public class StackImpl : IStack<DataObject>
     {
+        public int Size { get; }
+
+        public StackImpl(int size)
+        {
+            Size = size;
+        }
+
         public bool IsEmpty()
         {
-            throw new NotImplementedException();
+            return false;
+        }
+
+        public bool IsFull()
+        {
+            return false;
         }
 
         public DataObject Peek()
         {
-            throw new NotImplementedException();
+            return default(DataObject);
         }
 
         public DataObject Pop()
         {
-            throw new NotImplementedException();
+            return default(DataObject);
         }
 
         public void Push(DataObject data)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

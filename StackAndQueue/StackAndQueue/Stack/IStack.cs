@@ -15,5 +15,7 @@ namespace StackAndQueue.Stack
         T Peek();
 
         bool IsEmpty();
+
+        bool IsFull();
     }
 }

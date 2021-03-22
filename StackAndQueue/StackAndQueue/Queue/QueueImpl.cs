@@ -9,24 +9,36 @@ namespace StackAndQueue.Queue
 {
     public class QueueImpl : IQueue<DataObject>
     {
-        public DataObject Dequeue(DataObject data)
+        public int Size { get; }
+
+        public QueueImpl(int size)
         {
-            throw new NotImplementedException();
+            Size = size;
+        }
+
+        public DataObject Dequeue()
+        {
+            return default(DataObject);
+        }
+
+        public bool IsEmpty()
+        {
+            return false;
+        }
+
+        public bool IsFull()
+        {
+            return false;
+        }
+
+        public DataObject Peek()
+        {
+            return default(DataObject);
         }
 
         public void Enqueue(DataObject data)
         {
-            throw new NotImplementedException();
-        }
 
-        public DataObject Front()
-        {
-            throw new NotImplementedException();
-        }
-
-        public DataObject Rear()
-        {
-            throw new NotImplementedException();
         }
     }
 }

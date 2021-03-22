@@ -10,10 +10,12 @@ namespace StackAndQueue.Queue
     {
         void Enqueue(T data);
 
-        T Dequeue(T data);
+        T Dequeue();
 
-        T Rear();
+        bool IsEmpty();
 
-        T Front();
+        bool IsFull();
+
+        T Peek();
     }
 }
