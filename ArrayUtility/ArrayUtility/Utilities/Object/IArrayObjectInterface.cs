@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ArrayUtility.Utilities.Object
 {
-    public interface IArrayObjectInterface<T> : IComparable<T>
+    public interface IArrayObjectInterface<T> : IComparable
     {
         T GetValue();
 

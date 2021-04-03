@@ -31,5 +31,16 @@ namespace ArrayUtility.Utilities.Object
                 Value = Value
             };
         }
+
+        public int CompareTo(object obj)
+        {
+            if (obj is ArrayObjectImpl)
+            {
+                var impl = obj as ArrayObjectImpl;
+                return CompareTo(impl.Value);
+            }
+
+            return 0;
+        }
     }
 }
