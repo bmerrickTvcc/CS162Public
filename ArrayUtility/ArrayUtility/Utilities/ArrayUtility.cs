@@ -5,7 +5,7 @@ using ArrayUtility.Utilities.Object;
 
 namespace ArrayUtility.Utilities
 {
-    public static class ArrayUtility<T>
+    public static class ArrayUtility<T> where T : IComparable
     {
         /// <summary>
         /// 1. Returns the maximum value occurring in the array A between position i and j.
