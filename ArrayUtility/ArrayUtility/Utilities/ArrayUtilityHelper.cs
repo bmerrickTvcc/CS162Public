@@ -51,7 +51,7 @@ namespace ArrayUtility.Utilities
             };
         }
 
-        public static ArrayObjectImpl[,] RandomMaxtrix(int rows, int cols)
+        public static ArrayObjectImpl[,] RandomMatrix(int rows, int cols)
         {
             var array = new ArrayObjectImpl[rows,cols];
             for (var i = 0; i < rows; i++)
