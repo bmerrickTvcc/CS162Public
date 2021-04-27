@@ -66,39 +66,7 @@ namespace ArrayUtility.Utilities
         }
 
         /// <summary>
-        /// 8. Creates and returns an array of size size, of random elements.
-        /// </summary>
-        public static T[] CreateRandomArray(int size)
-        {
-            return default(T[]);
-        }
-
-        /// <summary>
-        /// 9. Creates and returns a two-dimensional array with rows rows and cols columns of random elements.
-        /// </summary>
-        public static T[,] CreateRandomMatrix(int rows, int cols)
-        {
-            return default(T[,]);
-        }
-
-        /// <summary>
-        /// 10. Returns an array that is a copy of A.
-        /// </summary>
-        public static T[] CopyArray(T[] a)
-        {
-            return default(T[]);
-        }
-
-        /// <summary>
-        /// 11. Returns a two-dimensional array that is a copy of A.
-        /// </summary>
-        public static T[,] CopyMatrix(T[,] a)
-        {
-            return default(T[,]);
-        }
-
-        /// <summary>
-        /// 12. Returns the position of the number q in the array A (returns −1 if q is not present inA).
+        /// 8. Returns the position of the number q in the array A (returns −1 if q is not present inA).
         /// </summary>
         public static int FindInArray(T[] a, T q)
         {
