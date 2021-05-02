@@ -9,7 +9,7 @@ namespace StackAndQueue.Queue
 {
     public class QueueImpl : IQueue<DataObject>
     {
-        public int Size { get; }
+        private int Size { get; }
 
         public QueueImpl(int size)
         {

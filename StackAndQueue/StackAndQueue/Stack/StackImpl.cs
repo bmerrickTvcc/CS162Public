@@ -9,7 +9,7 @@ namespace StackAndQueue.Stack
 {
     public class StackImpl : IStack<DataObject>
     {
-        public int Size { get; }
+        private int Size { get; }
 
         public StackImpl(int size)
         {
