@@ -42,5 +42,10 @@ namespace ArrayUtility.Utilities.Object
 
             return 0;
         }
+
+        public new string ToString()
+        {
+            return GetValue().ToString();
+        }
     }
 }
